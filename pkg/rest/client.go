@@ -41,7 +41,6 @@ func (c *BaseClient) SendRequest(req *http.Request) (*APIResponse, error) {
 	}
 	if response.StatusCode < http.StatusOK || response.StatusCode >= http.StatusBadRequest {
 		apiResponse.IsOk = false
-		// if an error, read body so close it
 		defer response.Body.Close()
 
 		var apiErr APIError

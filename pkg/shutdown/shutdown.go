@@ -5,7 +5,7 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/theartofdevel/notes_system/api_service/pkg/logging"
+	"gitlab.konstweb.ru/ow/arch/notes/pkg/logging"
 )
 
 func Graceful(signals []os.Signal, closeItems ...io.Closer) {
