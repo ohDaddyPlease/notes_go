@@ -2,6 +2,7 @@ package jwt
 
 import (
 	"encoding/json"
+	jwtshka "github.com/cristalhq/jwt/v3"
 	"github.com/google/uuid"
 	"github.com/ohdaddyplease/notes/api_service/internal/client/user_service"
 	"github.com/ohdaddyplease/notes/api_service/internal/config"
@@ -13,7 +14,7 @@ import (
 var _ Helper = &helper{}
 
 type UserClaims struct {
-	jwt.RegisteredClaims
+	jwtshka.RegisteredClaims
 	Email string `json:"email"`
 }
 
@@ -52,17 +53,17 @@ func (h *helper) UpdateRefreshToken(rt RT) ([]byte, error) {
 
 func (h *helper) GenerateAccessToken(u user_service.User) ([]byte, error) {
 	key := []byte(config.GetConfig().JWT.Secret)
-	signer, err := jwt.NewSignerHS(jwt.HS256, key)
+	signer, err := jwtshka.NewSignerHS(jwtshka.HS256, key)
 	if err != nil {
 		return nil, err
 	}
-	builder := jwt.NewBuilder(signer)
+	builder := jwtshka.NewBuilder(signer)
 
 	claims := UserClaims{
-		RegisteredClaims: jwt.RegisteredClaims{
+		RegisteredClaims: jwtshka.RegisteredClaims{
 			ID:        u.UUID,
 			Audience:  []string{"users"},
-			ExpiresAt: jwt.NewNumericDate(time.Now().Add(time.Minute * 60)),
+			ExpiresAt: jwtshka.NewNumericDate(time.Now().Add(time.Minute * 60)),
 		},
 		Email: u.Email,
 	}

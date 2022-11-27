@@ -3,6 +3,7 @@ package jwt
 import (
 	"context"
 	"encoding/json"
+	jwtshka "github.com/cristalhq/jwt/v3"
 	"github.com/ohdaddyplease/notes/api_service/internal/config"
 	"github.com/ohdaddyplease/notes/api_service/pkg/logging"
 	"net/http"
@@ -23,13 +24,13 @@ func Middleware(h http.HandlerFunc) http.HandlerFunc {
 		logger.Debug("create jwt verifier")
 		jwtToken := authHeader[1]
 		key := []byte(config.GetConfig().JWT.Secret)
-		verifier, err := jwt.NewVerifierHS(jwt.HS256, key)
+		verifier, err := jwtshka.NewVerifierHS(jwtshka.HS256, key)
 		if err != nil {
 			unauthorized(w, err)
 			return
 		}
 		logger.Debug("parse and verify token")
-		token, err := jwt.ParseAndVerifyString(jwtToken, verifier)
+		token, err := jwtshka.ParseAndVerifyString(jwtToken, verifier)
 		if err != nil {
 			unauthorized(w, err)
 			return

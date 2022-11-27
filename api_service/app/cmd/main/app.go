@@ -16,6 +16,7 @@ import (
 	"github.com/ohdaddyplease/notes/api_service/pkg/cache/freecache"
 	"github.com/ohdaddyplease/notes/api_service/pkg/jwt"
 	"github.com/ohdaddyplease/notes/api_service/pkg/logging"
+	"github.com/ohdaddyplease/notes/api_service/pkg/metrics"
 	"github.com/ohdaddyplease/notes/api_service/pkg/shutdown"
 	"net"
 	"net/http"

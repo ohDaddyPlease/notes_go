@@ -5,43 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b2eb38f-270b-4afb-802c-6a67e8c2c281" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../notes2/.idea/notes2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../notes2/.idea/notes2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/cmd/main/app.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/apperror/error.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/apperror/middleware.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/client/category_service/model.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/client/category_service/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/client/note_service/model.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/client/note_service/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/client/tag_service/model.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/client/tag_service/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/client/user_service/model.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/client/user_service/service.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/config/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/handlers/auth/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/handlers/categories/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/handlers/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/handlers/notes/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/handlers/tags/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/cache/cache.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/cache/freecache/cache.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/cache/freecache/cache_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/cache/freecache/iterator.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/cache/iterator.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/jwt/helper.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/jwt/middleware.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/logging/logging.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/metrics/hanlders.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/rest/api.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/rest/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/rest/url.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/shutdown/shutdown.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/deploy.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes2/api_service/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_service/app/cmd/main/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_service/app/cmd/main/app.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_service/app/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api_service/app/cmd/main/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_service/app/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/api_service/app/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_service/app/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/api_service/app/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_service/app/pkg/jwt/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_service/app/pkg/jwt/helper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_service/app/pkg/jwt/middleware.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_service/app/pkg/jwt/middleware.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +20,7 @@
   </component>
   <component name="GOROOT" url="file:///usr/local/opt/go/libexec" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../notes2" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -77,7 +47,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/si.novikov/Documents/_/chance/notes2&quot;
+    &quot;last_opened_file_path&quot;: &quot;/Users/si.novikov/Documents/_/chance/notes&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -85,7 +55,11 @@
       <recent name="$PROJECT_DIR$/../notes2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api_service/app/cmd/main" />
+      <recent name="$PROJECT_DIR$/api_service/app/cmd/bin" />
       <recent name="$PROJECT_DIR$/api_service/app" />
+      <recent name="$PROJECT_DIR$/api_service/app/cmd" />
+      <recent name="$PROJECT_DIR$/api_service/app/internal/config" />
     </key>
   </component>
   <component name="RunManager">
