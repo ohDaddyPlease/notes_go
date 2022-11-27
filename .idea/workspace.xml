@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b2eb38f-270b-4afb-802c-6a67e8c2c281" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_service/app/cmd/main/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_service/app/cmd/main/app.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_service/app/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api_service/app/cmd/main/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_service/app/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/api_service/app/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_service/app/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/api_service/app/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_service/app/pkg/jwt/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_service/app/pkg/jwt/helper.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_service/app/pkg/jwt/middleware.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_service/app/pkg/jwt/middleware.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
