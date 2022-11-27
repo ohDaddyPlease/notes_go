@@ -1,0 +1,16 @@
+---
+is_debug: true
+jwt:
+  secret: $3cr3t
+listen:
+  type: port
+  bind_ip: 0.0.0.0
+  port: 10000
+category_service:
+  url: http://category_service:10001/api
+note_service:
+  url: http://note_service:10003/api
+user_service:
+  url: http://user_service:10005/api
+tag_service:
+  url: http://tag_service:10004/api
