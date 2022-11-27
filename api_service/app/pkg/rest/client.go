@@ -9,7 +9,7 @@ import (
 	"path"
 	"sync"
 
-	"gitlab.konstweb.ru/ow/arch/notes/pkg/logging"
+	"github.com/ohdaddyplease/notes/api_service/pkg/logging"
 )
 
 type BaseClient struct {

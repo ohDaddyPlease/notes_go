@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/julienschmidt/httprouter"
-	"gitlab.konstweb.ru/ow/arch/notes/pkg/logging"
+	"github.com/ohdaddyplease/notes/api_service/pkg/logging"
 )
 
 const (

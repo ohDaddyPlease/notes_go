@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/julienschmidt/httprouter"
-	"gitlab.konstweb.ru/ow/arch/notes/api_service/internal/apperror"
-	"gitlab.konstweb.ru/ow/arch/notes/api_service/internal/client/note_service"
-	"gitlab.konstweb.ru/ow/arch/notes/pkg/jwt"
-	"gitlab.konstweb.ru/ow/arch/notes/pkg/logging"
+	"github.com/ohdaddyplease/notes/api_service/internal/apperror"
+	"github.com/ohdaddyplease/notes/api_service/internal/client/note_service"
+	"github.com/ohdaddyplease/notes/api_service/pkg/jwt"
+	"github.com/ohdaddyplease/notes/api_service/pkg/logging"
 	"net/http"
 )
 

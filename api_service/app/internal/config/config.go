@@ -2,7 +2,7 @@ package config
 
 import (
 	"github.com/ilyakaznacheev/cleanenv"
-	"gitlab.konstweb.ru/ow/arch/notes/pkg/logging"
+	"github.com/ohdaddyplease/notes/api_service/pkg/logging"
 	"sync"
 )
 

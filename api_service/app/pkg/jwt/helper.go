@@ -3,10 +3,10 @@ package jwt
 import (
 	"encoding/json"
 	"github.com/google/uuid"
-	"gitlab.konstweb.ru/ow/arch/notes/api_service/internal/client/user_service"
-	"gitlab.konstweb.ru/ow/arch/notes/api_service/internal/config"
-	"gitlab.konstweb.ru/ow/arch/notes/pkg/cache"
-	"gitlab.konstweb.ru/ow/arch/notes/pkg/logging"
+	"github.com/ohdaddyplease/notes/api_service/internal/client/user_service"
+	"github.com/ohdaddyplease/notes/api_service/internal/config"
+	"github.com/ohdaddyplease/notes/api_service/pkg/cache"
+	"github.com/ohdaddyplease/notes/api_service/pkg/logging"
 	"time"
 )
 

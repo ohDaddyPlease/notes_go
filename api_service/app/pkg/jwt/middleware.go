@@ -3,8 +3,8 @@ package jwt
 import (
 	"context"
 	"encoding/json"
-	"gitlab.konstweb.ru/ow/arch/notes/api_service/internal/config"
-	"gitlab.konstweb.ru/ow/arch/notes/pkg/logging"
+	"github.com/ohdaddyplease/notes/api_service/internal/config"
+	"github.com/ohdaddyplease/notes/api_service/pkg/logging"
 	"net/http"
 	"strings"
 	"time"

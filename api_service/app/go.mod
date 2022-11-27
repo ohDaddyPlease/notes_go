@@ -1,4 +1,4 @@
-module gitlab.konstweb.ru/ow/arch/notes/api_service
+module github.com/ohdaddyplease/notes/api_service
 
 go 1.15
 

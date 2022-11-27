@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	"github.com/coocood/freecache"
-	"gitlab.konstweb.ru/ow/arch/notes/pkg/cache"
+	"github.com/ohdaddyplease/notes/api_service/pkg/cache"
 )
 
 type repository struct {
