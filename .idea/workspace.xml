@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b2eb38f-270b-4afb-802c-6a67e8c2c281" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../notes2/.idea/notes2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../notes2/.idea/notes2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/cmd/main/app.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/apperror/error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/apperror/middleware.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/client/category_service/model.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/client/category_service/service.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/client/note_service/model.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/client/note_service/service.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/client/tag_service/model.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/client/tag_service/service.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/client/user_service/model.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/client/user_service/service.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/config/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/handlers/auth/handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/handlers/categories/handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/handlers/handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/handlers/notes/handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/internal/handlers/tags/handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/cache/cache.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/cache/freecache/cache.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/cache/freecache/cache_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/cache/freecache/iterator.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/cache/iterator.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/jwt/helper.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/jwt/middleware.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/logging/logging.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/metrics/hanlders.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/rest/api.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/rest/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/rest/url.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/app/pkg/shutdown/shutdown.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/deploy.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes2/api_service/docker-compose.yml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file:///usr/local/opt/go/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../notes2" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2I8HSYzFPxM1DYI9Tlv7XVYd808" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/si.novikov/Documents/_/chance/notes2&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../notes2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api_service/app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
